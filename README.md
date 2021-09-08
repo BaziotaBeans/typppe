@@ -15,7 +15,7 @@ Me hahaha...
 ## :pushpin: Description
 Typppe is a fun fast typing game, in which the player will have to type as many words as possible in a given minute or second.
 ## :flower_playing_cards: Layout
-![image](https://user-images.githubusercontent.com/48324076/117391524-008fc580-aee8-11eb-9c75-fd0aeb54faee.png)
+![Captura de ecrã 2021-09-08, às 04 17 32](https://user-images.githubusercontent.com/48324076/132442060-4aaebd94-8177-4f2c-8e72-f069b424baa0.png)
 ## Se in [action](https://baziotabeans.github.io/typppe/)
 
 ## :computer: Technologies 
