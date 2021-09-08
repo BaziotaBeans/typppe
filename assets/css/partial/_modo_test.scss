@@ -1,0 +1,29 @@
+.mode_test{
+    position: absolute;
+    z-index: 999;
+    background-color: $yellow-color;
+    bottom: -4rem;
+    left: -2rem;
+    height: 15rem;
+    transform: rotate(25deg);
+    border-radius: 50%;
+    padding: 2rem;
+    width: 15rem;
+    h2{
+        
+        padding-top:2rem;
+        font-size: 3rem;
+    }
+    h2:nth-child(1){
+        color: $primary-color;
+        position: absolute;
+        top: 0;
+        z-index: 3;
+    }
+    h2:nth-child(2){
+        color: $white-color;
+        position: absolute;
+        top: .5rem;
+        z-index: 2;
+    }
+}   

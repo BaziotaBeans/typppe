@@ -1,0 +1,76 @@
+.game-mode{
+    border-bottom: .1rem solid $type-opion-border-color;
+    padding: 1rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 40rem;
+        height: 4.4rem;
+    }
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $slider-toggle-background-color;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 3.5rem;
+        width: calc(40rem/2);
+        left: 4px;
+        bottom: 4px;
+        background-color: $type-opion-border-color;
+        -webkit-transition: .4s;
+        transition: .4s;
+        z-index: 3;
+    }
+    input:checked + .slider {
+        background-color: $slider-toggle-color;
+    }
+    input:focus + .slider {
+        box-shadow: 0 0 1px $slider-toggle-color;
+    }
+    input:checked + .slider:before {
+        -webkit-transform: translateX(19rem);
+        -ms-transform: translateX(19rem);
+        transform: translateX(19rem);
+    }
+    .slider.round {
+        border-radius: 34px;
+    }
+    .slider.round:before {
+        border-radius: 3rem;
+    }
+    .normal_mode, .legend_mode{
+        color: $white-color;
+        position: absolute;
+        font-size: 1.6rem;
+        font-weight: 500;
+        top: 1rem;
+        z-index: 2;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .normal_mode{
+        left: 4rem;
+    }
+    .legend_mode{
+        right: 4rem;
+        color: $yellow-color;
+    }
+}

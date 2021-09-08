@@ -1,0 +1,22 @@
+.container-tip-game {
+    margin-top: auto;
+    background-color: $primary-dark-color;
+    padding: 1.2rem 1.5rem;
+    border-radius: .5rem;
+    color: $primary-light-color;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    opacity: 0;
+    animation-name: appearTwo;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: .7s;
+    transition: transform .2s ease-in-out;
+
+    .type-tipe {
+        color: $white-color;
+        font-weight: bold;
+    }
+}

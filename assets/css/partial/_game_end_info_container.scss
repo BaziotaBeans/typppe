@@ -1,0 +1,65 @@
+.game_end_info_container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -2rem;
+    .celebrate-img{
+        width: 12.1rem;
+        height: 12.1rem;
+        object-fit: cover;
+    }
+    .bigText{
+        font-size: 3rem;
+        font-weight: bold;
+        color: $white-color;
+        margin: 1rem 0;
+    }
+    .litleText{
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: $white-color;
+        max-width: 434px;
+        text-align: center;
+        span{
+            color: $yellow-color;
+        }
+    }
+    .button-group{
+        display: flex;
+        width: 100%;
+        margin: 2rem 0 5rem;
+        button:nth-child(1){
+            margin-right: 1rem;
+            background-color: $green-neon-color;
+            
+            &:hover{
+                background-color: $green-neon-color;
+            }
+        }
+        button:nth-child(2){
+            background-color: $pinky-color;
+            &:hover{
+                background-color: $pinky-hover-color;
+            }
+        }
+    }
+    .btn{
+        box-shadow: 0px 8px 15px 9px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 1.5rem;
+        border: none;
+        font-size: 1.6rem;
+        max-width: 263px;
+        width: 100%;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.game_end_info_container.appear{
+    animation-name: appearEndGameMessage;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}

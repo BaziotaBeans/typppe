@@ -1,0 +1,40 @@
+.btn{
+    color: $white-color;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 1.5rem 15rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    
+}
+
+.btn-start {
+    background: linear-gradient(180deg, #3E20B5 0%, #2E158F 100%);
+    border: 1px solid rgba(75, 23, 211, 0.33);
+    box-shadow: -40px 32px 20px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    
+    opacity: 0;
+    animation-name: appearToTop;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 300ms;
+    transition: transform .2s ease-in-out;
+}
+
+.btn-start_appear{
+    animation-name: appear;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+
+.btn-start_desappear{
+    animation-name: desappear;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}

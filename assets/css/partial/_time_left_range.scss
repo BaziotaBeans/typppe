@@ -1,0 +1,17 @@
+.time_left_range{
+    background-color: $yellow-color;
+    width: 38rem;
+    height: .5rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    transition: width .5s linear;
+    opacity: 0;
+}
+
+.time_left_rang_appear{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}

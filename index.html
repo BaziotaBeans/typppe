@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Beans" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Typppe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="loader">
+        <div class="lds-ripple"><div></div><div></div></div>
+        <span class="loader-text">
+            Carregando as palavras e as frases...
+        </span>
+    </div>
+    <div class="error-page">
+        <div class="status-error">
+            <h1>404</h1>
+        </div> 
+        <p class="message-error">Se essa mensagem estiver aparecendo é provavel que você não esteja conectado a internet!
+            Por favor verifique a conexão!
+        </p>
+    </div>
+    <div class="mode_test">
+        <h2>Versão Alfa</h2>
+        <h2>Versão Alfa</h2>
+    </div>
+    <section id="wrapper">
+        
+        <header>
+            <a href="https://github.com/BaziotaBeans" class="github-project-link" target="_blank">
+                <!-- <img src="assets/img/Beans Avatar.jpg" alt=""> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+            <div class="box-center">
+                <img src="assets/img/svg/Form 2.svg" alt="Img">
+                <h2 class="game-name">typppe word</h2>
+                <div class="scoreContainer">
+                    <div class="scoreForm"></div>
+                    <h2 class="current-score">5</h2>
+                </div>
+            </div>
+            <div class="menu-game-toggle modal-open-btn">
+                <div></div>
+                <div></div>
+            </div>
+        </header>
+
+        <main class="container-principal">
+            
+            <div class="game-content-box-big">
+                <h1 class="game-text-1">Olá! <span class="game-text-1 colored">DEV</span> </h1>
+            </div>
+            <div class="counter">
+                <div class="number"> 
+                    <span class="">3</span>
+                    <span class="">2</span>
+                    <span class="">1</span> 
+                    <span class="">Go!</span> 
+                </div>
+            </div>
+           
+            <div class="container-game-text-2">
+                <h3 class="game-text-2"> Pronto para um desafio?
+                </h3>
+            </div>
+           
+            <input type="text" class="input-text">
+            <button class="btn btn-start">
+                Vamos lá
+            </button>
+            <div class="time_left_range"></div>
+
+
+
+            <div class="container-tip-game">
+                <p><span class="type-tipe">Pro Tip: </span> Às vezes, é mais rápido excluir tudo e apenas digitar novamente!</p>
+            </div> 
+            
+            <div class="game_end_info_container">
+                <img class="celebrate-img" src="assets/img/celebrate.png" alt="">
+                <h2 class="bigText">
+                    Uau, você é bom!
+                </h2>
+                <p class="litleText">
+                    Você fez <span class="total-score"></span>, <span class="wpm">0</span> palavras por minuto, <span class="cpm">0</span> caracteres por minuto, 
+                    <span class="total_error">1</span> erros.<span class="best_score"></span>  <span class="ranking_number">
+                    </span>
+                </p>
+                <div class="button-group">
+                    <button class="btn btn-save">
+                        Salve sua pontuação
+                    </button>
+                    <button class="btn btn-try-again">
+                        Tente novamente
+                    </button>
+                </div>
+            </div>
+
+        </main>
+
+        
+        <div class="modal-card"> 
+            <div class="header">
+                <h2 class="title">
+                    Configurações 
+                </h2>
+                <span class="close-btn modal-close-btn">
+                    <i class='bx bx-x'></i>
+                </span>
+            </div>
+            
+            <div class="minute-setting">
+                <h3 class="minute-setting-title">
+                    Tempo Typppe
+                </h3>
+                <div class="select" tabindex="1" id="select-minutes">
+                    <input class="selectopt" name="game_times" type="radio" id="option_1" checked value="15">
+                    <label for="option_1" class="option">15 Segundos</label>
+                    <input class="selectopt" name="game_times" type="radio" id="option_2" value="30">
+                    <label for="option_2" class="option">30 Segundos</label>
+                    <input class="selectopt" name="game_times" type="radio" id="option_3" value="60">
+                    <label for="option_3" class="option">1 Minutos</label>
+                    <input class="selectopt" name="game_times" type="radio" id="option_4" value="120">
+                    <label for="option_4" class="option">2 Minutos</label>
+                    <input class="selectopt" name="game_times" type="radio" id="option_5" value="180">
+                    <label for="option_5" class="option">3 Minutos</label>
+                    <input class="selectopt" name="game_times" type="radio" id="option_6" value="300">
+                    <label for="option_6" class="option">5 Minutos</label>
+                </div>
+            </div>
+            <div class="game-mode">
+                <label class="switch">
+                    <input type="checkbox" id="game_mode">
+                    <span class="slider round"></span>
+                    <label class="normal_mode">Human Mode</label>
+                    <label class="legend_mode">Legend Mode</label>
+                </label>
+            </div>
+            <div class="type-option">
+                <label class="switch">
+                    <input type="checkbox" id="typppe_option">
+                    <span class="slider round"></span>
+                    <label class="typppe-word">typppe palavra</label>
+                    <label class="typppe-text">typppe frase</label>
+                </label>
+            </div>
+            <div class="about-game">
+                <h3 class="about-game-title">
+                    O que é isso?
+                </h3>
+                <p>
+                    Typppe é um divertido jogo de digitação rápido, no qual o jogador terá que digitar o máximo de palavras que puder em um determinado minuto ou segundo.                
+                </p>
+            </div>
+            <div class="game-rule">
+                <h3 class="game-rule-title">
+                    Regra
+                </h3>
+                <p>
+                    Digite no campo de entrada a palavra destacada. As palavras corretas ficarão verdes. Letras incorretas ficarão vermelhas.
+                </p>
+            </div>
+            <div class="modal-card-footer">
+                <span class="footer-text-1">
+                    Feito com <i class='bx bx-heart'></i> por <a target='_blank' href="https://github.com/BaziotaBeans">Beans</a>
+                </span>
+                <span class="footer-text-2">
+                    @typppe 2021 Todos os direitos reservados
+                </span>
+            </div>
+
+        </div>
+        <div class="menu-game-statistic">
+            <div class="row">
+                <span class="label">erros:</span>
+                <span class="label error_label">3</span>
+            </div>
+            <div class="row">
+                <span class="label time_label_first">time:</span>
+                <span class="label time_label"></span>
+            </div>
+            <div class="row">
+                <span class="label">precision:</span>
+                <span class="label acurracy_label">75%</span>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </section>
+
+    <script type="module" src="assets/js/main.js" defer></script>
+</body>
+</html>

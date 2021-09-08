@@ -1,0 +1,253 @@
+.modal-card{
+    position: absolute;
+    // transform: translate(-50%, 50%);
+    top: 5rem;
+    z-index: 999;
+    box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    background-color: $primary-dark-color;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    max-width: 45rem;
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: .1rem solid #230865;
+        .title{
+            color: $white-color;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 600;
+        }
+        .close-btn{
+            transition: all .3s ease-in-out; 
+            color: #1e065c;
+            font-size: 3rem;
+            font-weight: 600;
+            cursor: pointer;
+            position: absolute;
+            right: -1rem;
+            top: -1rem;
+            &:hover{
+                color: #12033a;
+            }
+        }
+    }
+
+    .minute-setting{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+        border-bottom: .1rem solid #230865;
+        h3{
+            color: $white-color;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .select {
+            display:flex;
+            flex-direction: column;
+            position:relative;
+            width: 13rem;
+            height: 5.178rem;
+            z-index: 5;
+        }
+
+        .option {
+            padding:0 30px 0 10px;
+            min-height:40px;
+            display:flex;
+            align-items:center;
+            background: #230865;
+            border-top: #230865 solid 1px;
+            position:absolute;
+            top:0;
+            width: 100%;
+            pointer-events:none;
+            order:2;
+            z-index: 1;
+            transition:background .4s ease-in-out;
+            overflow: hidden;
+            white-space:nowrap;
+            color: $white-color;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        .option:hover {
+            background: #290485;
+            color: $yellow-color;
+        }
+
+        .select:focus .option {
+            position:relative;
+            pointer-events:all;
+        }
+
+        input {
+            opacity:0;
+            position:absolute;
+            left:-99999px;
+        }
+
+        input:checked + label {
+            order: 1;
+            z-index:2;
+            background: #230865;
+            border-top:none;
+            position:relative;
+            border-radius: .8rem;
+            color: $white-color;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        input:checked + label:after {
+            content:'';
+            width: 0; 
+            height: 0; 
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid $white-color;
+            position:absolute;
+            right:10px;
+            top:calc(50% - 2.5px);
+            pointer-events:none;
+            z-index:3;
+        }
+
+        input:checked + label:before {
+            position:absolute;
+            right:0;
+            height: 4rem;
+            width: 4rem;
+            content: '';
+            background: #230865;
+        }
+    }
+
+    .type-option{
+        border-bottom: .1rem solid $type-opion-border-color;
+        padding: 1rem 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 40rem;
+            height: 4.4rem;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: $slider-toggle-background-color;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 3.5rem;
+            width: calc(40rem/2);
+            left: 4px;
+            bottom: 4px;
+            background-color: $type-opion-border-color;
+            -webkit-transition: .4s;
+            transition: .4s;
+            z-index: 3;
+        }
+        input:checked + .slider {
+            background-color: $slider-toggle-color;
+        }
+        input:focus + .slider {
+            box-shadow: 0 0 1px $slider-toggle-color;
+        }
+        input:checked + .slider:before {
+            -webkit-transform: translateX(19rem);
+            -ms-transform: translateX(19rem);
+            transform: translateX(19rem);
+        }
+        .slider.round {
+            border-radius: 34px;
+        }
+        .slider.round:before {
+            border-radius: 3rem;
+        }
+        .typppe-word, .typppe-text{
+            color: $white-color;
+            position: absolute;
+            font-size: 1.6rem;
+            font-weight: 500;
+            top: 1rem;
+            z-index: 2;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .typppe-word{
+            left: 4rem;
+        }
+        .typppe-text{
+            right: 4rem;
+            color: $yellow-color;
+        }
+    }
+
+    .about-game, .game-rule{
+        border-bottom: .1rem solid #230865;
+        padding: 1rem 0;
+        &-title{
+            color: $white-color;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 1.3rem;
+            line-height: 2.1rem;
+            color: $white-color;
+            font-weight: 400;
+            text-align: justify;
+        }
+    }
+
+    &-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0 .5rem;
+        .footer-text-1{
+            color: $white-color;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: .3rem;
+            a,i{
+                color: $green-neon-color;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+            }
+            a:hover{
+                color: $yellow-color;
+            }
+        }
+        .footer-text-2{
+            color: $white-color;
+            font-size: 1.3rem;
+        }
+    }
+}

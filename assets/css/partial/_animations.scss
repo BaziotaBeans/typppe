@@ -1,0 +1,159 @@
+@keyframes appear{
+    from {
+        transform: translateY(9rem) scale(.7);
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+
+@keyframes desappear{
+    from {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(9rem) scale(.7);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+@keyframes appearToTopText1{
+    from {
+        transform: translateY(5rem) scale(.5);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0rem) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes appearToTop{
+    from {
+        transform: translateY(5rem);
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        transform: translateY(0rem);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes appearToTopDesapear {
+    0%{
+        transform: translateY(0rem);
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(-6rem);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes appearToTopDesapear-2 {
+    0%{
+        transform: translateY(0rem);
+        opacity: 1;
+        visibility: visibility;
+    }
+    100%{
+        transform: translateY(-6rem);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+@keyframes appearTwo{
+    from{
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+@keyframes appearThree{
+    from {
+        transform: translateY(2rem);
+        opacity: 1;
+    }
+    to{
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+}
+
+@keyframes time{
+    0%, 100%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    10%{
+        opacity: 0.1;
+        transform: scale(1.1);
+    }
+    20%{
+        opacity: 0.2;
+        transform: scale(1.2);
+    }
+    30%{
+        opacity: 0.3;
+        transform: scale(1.3);
+    }
+    40%{
+        opacity: 0.4;
+        transform: scale(1.4);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(1.5);
+    }
+    60%{
+        opacity: 0.6;
+        transform: scale(1.6);
+    }
+    70%{
+        opacity: 0.7;
+        transform: scale(1.8);
+    }
+    80%{
+        opacity: 0.8;
+        transform: scale(1.8);
+    }
+    90%{
+        opacity: 0.9;
+        transform: scale(1.9);
+    }
+}
+
+.appear {
+    animation-name: appear;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.desapear{
+    animation-name: desappear;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+

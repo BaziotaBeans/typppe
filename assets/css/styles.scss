@@ -1,0 +1,105 @@
+@import 'partial/animations';
+@import 'partial/colors';
+@import 'partial/header';
+@import 'partial/main';
+@import 'partial/button';
+@import 'partial/modal';
+@import 'partial/container_tip_game';
+@import 'partial/input';
+@import 'partial/time_left_range';
+@import 'partial/menu_game_statistic';
+@import 'partial/game_end_info_container';
+@import 'partial/game_mode';
+@import 'partial/loader';
+@import 'partial/error';
+@import 'partial/modo_test';
+
+
+/*
+:root{
+    --primary: #2d037f;
+    --primary-dark: #290275;
+    --primary-light: #AE98FF;
+
+    --white: #FFF;
+    --black: #000;
+    --yellow: #FFC100;
+
+    --green-neon: #00FE82;
+    --green-neon-hover: #00b65e;
+}*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 63.2%;
+}
+
+
+html, body{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    background-color: $primary-color;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    ::selection{
+        background-color: $green-neon-color;
+    }
+}
+
+#wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+.form-3, .form-4{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.form-3{
+    left: -3rem;
+}
+
+.form-4{
+    right: 0;
+}
+
+
+.display-none {
+    display: none;
+}
+
+
+.shadow{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, .55);
+}
+
+
+
+
+
+

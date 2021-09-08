@@ -1,0 +1,27 @@
+.menu-game-statistic{
+    position: absolute;
+    display: none;
+    top: 3%;
+    left: 80%;
+    background-color: $primary-dark-color;
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span:nth-child(1){
+            margin-right: 1rem;
+        }
+        span:nth-child(2){
+            color: $green-neon-color;
+        }
+        .label{
+            font-size: 1.5rem;
+            color: $white-color;
+            font-weight: 800;
+        }
+
+    }
+}

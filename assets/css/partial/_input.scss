@@ -1,0 +1,31 @@
+.input-text {
+    background: linear-gradient(180deg, #3E20B5 0%, #2E158F 100%);
+    border: 1px solid rgba(75, 23, 211, 0.33);
+    border-radius: 10px;
+    color: $white-color;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    padding: 1.5rem 6rem;
+    cursor: pointer;
+    margin: 2rem 0;
+    outline: $primary-color;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    visibility: hidden;
+}
+
+.input_text_desappear {
+    animation-name: desappear;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+.input_text_appear{
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+}

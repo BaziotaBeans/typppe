@@ -1,0 +1,1741 @@
+@-webkit-keyframes appear {
+  from {
+    -webkit-transform: translateY(9rem) scale(0.7);
+            transform: translateY(9rem) scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes appear {
+  from {
+    -webkit-transform: translateY(9rem) scale(0.7);
+            transform: translateY(9rem) scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes desappear {
+  from {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(9rem) scale(0.7);
+            transform: translateY(9rem) scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes desappear {
+  from {
+    -webkit-transform: translateY(0) scale(1);
+            transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(9rem) scale(0.7);
+            transform: translateY(9rem) scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes appearToTopText1 {
+  from {
+    -webkit-transform: translateY(5rem) scale(0.5);
+            transform: translateY(5rem) scale(0.5);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0rem) scale(1);
+            transform: translateY(0rem) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes appearToTopText1 {
+  from {
+    -webkit-transform: translateY(5rem) scale(0.5);
+            transform: translateY(5rem) scale(0.5);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0rem) scale(1);
+            transform: translateY(0rem) scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes appearToTop {
+  from {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes appearToTop {
+  from {
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@-webkit-keyframes appearToTopDesapear {
+  0% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(-6rem);
+            transform: translateY(-6rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes appearToTopDesapear {
+  0% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateY(-6rem);
+            transform: translateY(-6rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes appearToTopDesapear-2 {
+  0% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visibility;
+  }
+  100% {
+    -webkit-transform: translateY(-6rem);
+            transform: translateY(-6rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes appearToTopDesapear-2 {
+  0% {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+    visibility: visibility;
+  }
+  100% {
+    -webkit-transform: translateY(-6rem);
+            transform: translateY(-6rem);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes appearTwo {
+  from {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes appearTwo {
+  from {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0rem);
+            transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes appearThree {
+  from {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+}
+
+@keyframes appearThree {
+  from {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes time {
+  0%, 100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    opacity: 0.1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  20% {
+    opacity: 0.2;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    opacity: 0.3;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  40% {
+    opacity: 0.4;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  60% {
+    opacity: 0.6;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  70% {
+    opacity: 0.7;
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+  80% {
+    opacity: 0.8;
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+  90% {
+    opacity: 0.9;
+    -webkit-transform: scale(1.9);
+            transform: scale(1.9);
+  }
+}
+
+@keyframes time {
+  0%, 100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    opacity: 0.1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  20% {
+    opacity: 0.2;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  30% {
+    opacity: 0.3;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  40% {
+    opacity: 0.4;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  60% {
+    opacity: 0.6;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  70% {
+    opacity: 0.7;
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+  80% {
+    opacity: 0.8;
+    -webkit-transform: scale(1.8);
+            transform: scale(1.8);
+  }
+  90% {
+    opacity: 0.9;
+    -webkit-transform: scale(1.9);
+            transform: scale(1.9);
+  }
+}
+
+.appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.desapear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1024px;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+header .github-project-link {
+  fill: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .github-project-link img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+header .github-project-link:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  fill: #00FE82;
+}
+
+header .box-center {
+  margin-top: -60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+header .box-center .game-name {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #fff;
+  bottom: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .box-center .game-name:hover {
+  color: #FFC100;
+  text-shadow: 0 .5rem 1rem #000;
+}
+
+header .box-center .scoreContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  bottom: 3rem;
+}
+
+header .box-center .scoreContainer .scoreForm {
+  background-color: #FFC100;
+  width: 2rem;
+  height: 2rem;
+  border-radius: .5rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-right: 1rem;
+}
+
+header .box-center .scoreContainer .current-score {
+  color: #fff;
+  font-size: 2.5rem;
+  font-size: 400;
+}
+
+header .menu-game-toggle {
+  background-color: #290275;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .menu-game-toggle:hover > * {
+  background-color: #00FE82;
+}
+
+header .menu-game-toggle div {
+  background-color: #fff;
+  border-radius: 1rem;
+  height: .4rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .menu-game-toggle div:nth-child(1) {
+  width: 3.3rem;
+}
+
+header .menu-game-toggle div:nth-child(2) {
+  width: 2.5rem;
+  margin-top: .85rem;
+}
+
+main {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+main .game-content-box-big {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .game-content-box-big > * {
+  text-align: center;
+}
+
+main .game-text-1 {
+  position: relative;
+  font-size: 3.8rem;
+  color: #fff;
+  margin: auto 0 2rem;
+  -webkit-animation-name: appearToTopText1;
+          animation-name: appearToTopText1;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+main .colored {
+  color: #FFC100;
+}
+
+main .game-text-1-appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+main .game-text-1-desappear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+main .counter .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #00FE82;
+  font-size: 4rem;
+  font-weight: 700;
+  position: relative;
+  padding: 1.5rem;
+}
+
+main .counter .number span {
+  position: absolute;
+  opacity: 0;
+}
+
+main .counter .number .num1 {
+  -webkit-animation-name: time;
+          animation-name: time;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+main .counter .number .num2 {
+  -webkit-animation-name: time;
+          animation-name: time;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+main .counter .number .num3 {
+  -webkit-animation-name: time;
+          animation-name: time;
+  -webkit-animation-delay: 3000ms;
+          animation-delay: 3000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+main .counter .number .num4 {
+  -webkit-animation-name: time;
+          animation-name: time;
+  -webkit-animation-delay: 4000ms;
+          animation-delay: 4000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+main .container-game-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container-game-counter .text-counter-init {
+  color: #00FE82;
+  font-size: 4.5rem;
+  opacity: 0;
+  -webkit-animation-name: time;
+          animation-name: time;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
+main .container-game-counter .animation-desappear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+main .container-game-text-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 75rem;
+  width: 100%;
+}
+
+main .container-game-text-2 > * {
+  text-align: center;
+}
+
+main .container-game-text-2 .fantasm-game-text-2 {
+  position: absolute;
+  font-size: 1.5rem;
+  color: #AE98FF;
+  bottom: 0;
+  -webkit-animation-name: appearToTop;
+          animation-name: appearToTop;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+main .container-game-text-2 .game-text-2 {
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  color: #AE98FF;
+  opacity: 0;
+  -webkit-animation-name: appearToTop;
+          animation-name: appearToTop;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+main .container-game-text-2 .game-text-2 span.incorrect {
+  color: #ff0000;
+}
+
+main .container-game-text-2 .game-text-2 span.correct {
+  color: #00FE82;
+}
+
+main .container-game-text-2 .game-text-2-desappear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+main .container-game-text-2 .game-text-2-appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.btn {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 1.5rem 15rem;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+.btn-start {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3E20B5), to(#2E158F));
+  background: linear-gradient(180deg, #3E20B5 0%, #2E158F 100%);
+  border: 1px solid rgba(75, 23, 211, 0.33);
+  -webkit-box-shadow: -40px 32px 20px 4px rgba(0, 0, 0, 0.14);
+          box-shadow: -40px 32px 20px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 10px;
+  opacity: 0;
+  -webkit-animation-name: appearToTop;
+          animation-name: appearToTop;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.btn-start_appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.btn-start_desappear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.modal-card {
+  position: absolute;
+  top: 5rem;
+  z-index: 999;
+  -webkit-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  background-color: #290275;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 45rem;
+}
+
+.modal-card .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  border-bottom: .1rem solid #230865;
+}
+
+.modal-card .header .title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.modal-card .header .close-btn {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  color: #1e065c;
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+}
+
+.modal-card .header .close-btn:hover {
+  color: #12033a;
+}
+
+.modal-card .minute-setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+  border-bottom: .1rem solid #230865;
+}
+
+.modal-card .minute-setting h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.modal-card .minute-setting .select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 13rem;
+  height: 5.178rem;
+  z-index: 5;
+}
+
+.modal-card .minute-setting .option {
+  padding: 0 30px 0 10px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #230865;
+  border-top: #230865 solid 1px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  z-index: 1;
+  -webkit-transition: background .4s ease-in-out;
+  transition: background .4s ease-in-out;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.modal-card .minute-setting .option:hover {
+  background: #290485;
+  color: #FFC100;
+}
+
+.modal-card .minute-setting .select:focus .option {
+  position: relative;
+  pointer-events: all;
+}
+
+.modal-card .minute-setting input {
+  opacity: 0;
+  position: absolute;
+  left: -99999px;
+}
+
+.modal-card .minute-setting input:checked + label {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  z-index: 2;
+  background: #230865;
+  border-top: none;
+  position: relative;
+  border-radius: .8rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.modal-card .minute-setting input:checked + label:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 2.5px);
+  pointer-events: none;
+  z-index: 3;
+}
+
+.modal-card .minute-setting input:checked + label:before {
+  position: absolute;
+  right: 0;
+  height: 4rem;
+  width: 4rem;
+  content: '';
+  background: #230865;
+}
+
+.modal-card .type-option {
+  border-bottom: 0.1rem solid #230865;
+  padding: 1rem 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-card .type-option .switch {
+  position: relative;
+  display: inline-block;
+  width: 40rem;
+  height: 4.4rem;
+}
+
+.modal-card .type-option .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.modal-card .type-option .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4E1EFF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.modal-card .type-option .slider:before {
+  position: absolute;
+  content: "";
+  height: 3.5rem;
+  width: calc(40rem/2);
+  left: 4px;
+  bottom: 4px;
+  background-color: #230865;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 3;
+}
+
+.modal-card .type-option input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.modal-card .type-option input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+.modal-card .type-option input:checked + .slider:before {
+  -webkit-transform: translateX(19rem);
+  transform: translateX(19rem);
+}
+
+.modal-card .type-option .slider.round {
+  border-radius: 34px;
+}
+
+.modal-card .type-option .slider.round:before {
+  border-radius: 3rem;
+}
+
+.modal-card .type-option .typppe-word, .modal-card .type-option .typppe-text {
+  color: #fff;
+  position: absolute;
+  font-size: 1.6rem;
+  font-weight: 500;
+  top: 1rem;
+  z-index: 2;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.modal-card .type-option .typppe-word {
+  left: 4rem;
+}
+
+.modal-card .type-option .typppe-text {
+  right: 4rem;
+  color: #FFC100;
+}
+
+.modal-card .about-game, .modal-card .game-rule {
+  border-bottom: .1rem solid #230865;
+  padding: 1rem 0;
+}
+
+.modal-card .about-game-title, .modal-card .game-rule-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.modal-card .about-game p, .modal-card .game-rule p {
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.modal-card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5rem 0 .5rem;
+}
+
+.modal-card-footer .footer-text-1 {
+  color: #fff;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .3rem;
+}
+
+.modal-card-footer .footer-text-1 a, .modal-card-footer .footer-text-1 i {
+  color: #00FE82;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.modal-card-footer .footer-text-1 a:hover {
+  color: #FFC100;
+}
+
+.modal-card-footer .footer-text-2 {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.container-tip-game {
+  margin-top: auto;
+  background-color: #290275;
+  padding: 1.2rem 1.5rem;
+  border-radius: .5rem;
+  color: #AE98FF;
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0;
+  -webkit-animation-name: appearTwo;
+          animation-name: appearTwo;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.container-tip-game .type-tipe {
+  color: #fff;
+  font-weight: bold;
+}
+
+.input-text {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3E20B5), to(#2E158F));
+  background: linear-gradient(180deg, #3E20B5 0%, #2E158F 100%);
+  border: 1px solid rgba(75, 23, 211, 0.33);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding: 1.5rem 6rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  outline: #2d037f;
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  visibility: hidden;
+}
+
+.input_text_desappear {
+  -webkit-animation-name: desappear;
+          animation-name: desappear;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.input_text_appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.time_left_range {
+  background-color: #FFC100;
+  width: 38rem;
+  height: .5rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  -webkit-transition: width .5s linear;
+  transition: width .5s linear;
+  opacity: 0;
+}
+
+.time_left_rang_appear {
+  -webkit-animation-name: appear;
+          animation-name: appear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.menu-game-statistic {
+  position: absolute;
+  display: none;
+  top: 3%;
+  left: 80%;
+  background-color: #290275;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+
+.menu-game-statistic .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-game-statistic .row span:nth-child(1) {
+  margin-right: 1rem;
+}
+
+.menu-game-statistic .row span:nth-child(2) {
+  color: #00FE82;
+}
+
+.menu-game-statistic .row .label {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+.game_end_info_container {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -2rem;
+}
+
+.game_end_info_container .celebrate-img {
+  width: 12.1rem;
+  height: 12.1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.game_end_info_container .bigText {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.game_end_info_container .litleText {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  max-width: 434px;
+  text-align: center;
+}
+
+.game_end_info_container .litleText span {
+  color: #FFC100;
+}
+
+.game_end_info_container .button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 2rem 0 5rem;
+}
+
+.game_end_info_container .button-group button:nth-child(1) {
+  margin-right: 1rem;
+  background-color: #00FE82;
+}
+
+.game_end_info_container .button-group button:nth-child(1):hover {
+  background-color: #00FE82;
+}
+
+.game_end_info_container .button-group button:nth-child(2) {
+  background-color: #F82C70;
+}
+
+.game_end_info_container .button-group button:nth-child(2):hover {
+  background-color: #c21e55;
+}
+
+.game_end_info_container .btn {
+  -webkit-box-shadow: 0px 8px 15px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 15px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 1.5rem;
+  border: none;
+  font-size: 1.6rem;
+  max-width: 263px;
+  width: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.game_end_info_container.appear {
+  -webkit-animation-name: appearEndGameMessage;
+          animation-name: appearEndGameMessage;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.game-mode {
+  border-bottom: 0.1rem solid #230865;
+  padding: 1rem 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.game-mode .switch {
+  position: relative;
+  display: inline-block;
+  width: 40rem;
+  height: 4.4rem;
+}
+
+.game-mode .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.game-mode .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4E1EFF;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.game-mode .slider:before {
+  position: absolute;
+  content: "";
+  height: 3.5rem;
+  width: calc(40rem/2);
+  left: 4px;
+  bottom: 4px;
+  background-color: #230865;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 3;
+}
+
+.game-mode input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.game-mode input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196F3;
+          box-shadow: 0 0 1px #2196F3;
+}
+
+.game-mode input:checked + .slider:before {
+  -webkit-transform: translateX(19rem);
+  transform: translateX(19rem);
+}
+
+.game-mode .slider.round {
+  border-radius: 34px;
+}
+
+.game-mode .slider.round:before {
+  border-radius: 3rem;
+}
+
+.game-mode .normal_mode, .game-mode .legend_mode {
+  color: #fff;
+  position: absolute;
+  font-size: 1.6rem;
+  font-weight: 500;
+  top: 1rem;
+  z-index: 2;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.game-mode .normal_mode {
+  left: 4rem;
+}
+
+.game-mode .legend_mode {
+  right: 4rem;
+  color: #FFC100;
+}
+
+.loader {
+  position: absolute;
+  background: #2d037f;
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loader .loader-text {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.loader .lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.loader .lds-ripple div {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.loader .lds-ripple div:nth-child(2) {
+  -webkit-animation-delay: -0.5s;
+          animation-delay: -0.5s;
+}
+
+@-webkit-keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+
+.error-page {
+  position: absolute;
+  z-index: 9999;
+  background-color: #2d037f;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error-page .status-error {
+  font-size: 6rem;
+  color: #FFC100;
+  text-shadow: 0.4rem 0.4rem 0.7rem rgba(0, 0, 0, 0.6);
+}
+
+.error-page .message-error {
+  color: #fff;
+  font-size: 1.4rem;
+  max-width: 40rem;
+  text-align: center;
+}
+
+.mode_test {
+  position: absolute;
+  z-index: 999;
+  background-color: #FFC100;
+  bottom: -4rem;
+  left: -2rem;
+  height: 15rem;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  border-radius: 50%;
+  padding: 2rem;
+  width: 15rem;
+}
+
+.mode_test h2 {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+.mode_test h2:nth-child(1) {
+  color: #2d037f;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.mode_test h2:nth-child(2) {
+  color: #fff;
+  position: absolute;
+  top: .5rem;
+  z-index: 2;
+}
+
+/*
+:root{
+    --primary: #2d037f;
+    --primary-dark: #290275;
+    --primary-light: #AE98FF;
+
+    --white: #FFF;
+    --black: #000;
+    --yellow: #FFC100;
+
+    --green-neon: #00FE82;
+    --green-neon-hover: #00b65e;
+}*/
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 63.2%;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  background-color: #2d037f;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+html ::-moz-selection, body ::-moz-selection {
+  background-color: #00FE82;
+}
+
+html ::selection, body ::selection {
+  background-color: #00FE82;
+}
+
+#wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.form-3, .form-4 {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.form-3 img, .form-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.form-3 {
+  left: -3rem;
+}
+
+.form-4 {
+  right: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.shadow {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+/*# sourceMappingURL=styles.css.map */
